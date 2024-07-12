@@ -176,7 +176,6 @@ body {
 
 
 .hero-section {
-    background-image: url('/assets/images/shutterstock_2168518333.jpg') !important;
     background-size: cover;
     background-position: 0px -50px;
     background-repeat: no-repeat;
@@ -184,6 +183,15 @@ body {
     min-height: 1134px;
     display: flex;
     flex-direction: column;
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0.9; scale: 1.05;}
+    100% { opacity: 1; scale: 1;}    
 }
 
 .hero-mid-section {
