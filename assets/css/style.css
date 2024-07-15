@@ -159,31 +159,52 @@ body {
 
 
 @media (min-width: 576px) {
-    .container {
+    .navbar-container {
         max-width: 540px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+        position: relative;
+        display: flex;
+        justify-content: center;
     }
 }
 
 @media (min-width: 768px) {
-    .container {
+    .navbar-container {
         max-width: 720px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
     }
 }
 
 @media (min-width: 992px) {
-    .container {
+    .navbar-container {
         max-width: 960px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
     }
 }
 
 @media (min-width: 1200px) {
-    .container {
+    .navbar-container {
         max-width: 1140px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
     }
 }
 
 @media (min-width: 1400px) {
-    .container {
+    .navbar-container {
         max-width: 1320px;
         width: 100%;
         margin: 0 auto;
@@ -257,6 +278,7 @@ body {
 @media (max-width: 768px) {
     .energlobix__navbar {
         height: auto;
+        padding: 1rem 2rem;
     }
 
     .energlobix__navbar .logo {
@@ -303,7 +325,7 @@ body {
 /* Optional: additional styles for very small screens */
 @media (max-width: 576px) {
     .energlobix__navbar {
-        padding: 2rem 0;
+        padding: 2rem 2rem;
     }
 
     .energlobix__navbar ul li {
@@ -385,6 +407,7 @@ body {
 .hero-mid-section-content {
     position: relative;
     z-index: 2;
+    padding: 0 2rem;
     /* Ensures the content is above the image */
 }
 
@@ -453,6 +476,12 @@ body {
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+}
+
+@media (max-width : 576px) {
+    .about-section {
+        background-image: url('/assets/images/about_us_mobile.png');
+    }
 }
 
 .oval-container {
@@ -682,6 +711,7 @@ body {
 }
 
 .contact-us-section {
+    
     padding-top: 124.4px;
     padding-bottom: 124.4px;
 }
