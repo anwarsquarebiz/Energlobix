@@ -101,8 +101,12 @@
     }
 
     .energlobix__card-text {
-        font-size: calc(18.81px * 0.75);
-        line-height: calc(22.81px * 0.75);
+        font-size: calc(18.81px * 0.50);
+        line-height: calc(22.81px * 0.50);
+    }
+
+    .read-more-arrow2 {
+        margin-top: -8px !important;
     }
 }
 
@@ -392,6 +396,12 @@ body {
     text-align: center;
     color: #fff;
     font-family: 'Adelle-Sans-Light', sans-serif;
+}
+
+@media (max-width : 576px) {
+    .hero-mid-section {
+        margin-top: 100px;
+    }
 }
 
 .single-logo-transparent {
