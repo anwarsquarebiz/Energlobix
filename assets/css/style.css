@@ -36,6 +36,12 @@
     --dark-blue-color: rgb(25, 45, 80);
 }
 
+@media (max-width: 576px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
 .row {
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -101,8 +107,8 @@
     }
 
     .energlobix__card-text {
-        font-size: calc(18.81px * 0.50);
-        line-height: calc(22.81px * 0.50);
+        font-size: calc(18.81px * 0.75);
+        line-height: calc(22.81px * 0.75);
     }
 
     .read-more-arrow2 {
@@ -123,18 +129,18 @@
     }
 
     .energlobix__links {
-        font-size: calc(18px * 0.60);
-        line-height: calc(21.6px * 0.60);
+        font-size: calc(18px * 0.75);
+        line-height: calc(21.6px * 0.75);
     }
 
     .energlobix__card-title {
-        font-size: calc(34.575px * 0.60);
-        line-height: calc(41.89px * 0.60);
+        font-size: calc(34.575px * 0.75);
+        line-height: calc(41.89px * 0.75);
     }
 
     .energlobix__card-text {
-        font-size: calc(18.81px * 0.60);
-        line-height: calc(22.81px * 0.60);
+        font-size: calc(18.81px * 0.75);
+        line-height: calc(22.81px * 0.75);
     }
 }
 
