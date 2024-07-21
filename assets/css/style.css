@@ -357,6 +357,14 @@ body {
     transition: opacity 1s ease-in-out;
 }
 
+@media (max-width: 576px) {
+    .slide {
+        background-size: 380% auto;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+}
+
 .slide.active {
     opacity: 1;
 }
@@ -468,7 +476,7 @@ body {
     }
 
     .hero-lower-section {
-        margin-top: 95px;
+        margin-top: 115px;
         font-size: 17.25px;
         line-height: 20.85px;
     }
@@ -490,7 +498,8 @@ body {
 
 @media (max-width : 576px) {
     .about-section {
-        background-image: url('/assets/images/about_us_mobile.png');
+        
+        background-image: url('/assets/images/about_us_mobile.png');        
     }
 }
 
