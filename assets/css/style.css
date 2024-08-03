@@ -58,6 +58,11 @@
     .hide-on-mobile {
         display: none;
     }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 a:link { 
@@ -94,6 +99,12 @@ a:link {
 .energlobix__text {
     font-family: 'Adelle-Sans-Light', sans-serif;
     font-size: 28px;
+    line-height: 36px;
+}
+
+.energlobix__text__subtitle {
+    font-family: 'Adelle-Sans-Light', sans-serif;
+    font-size: 22px;
     line-height: 36px;
 }
 
@@ -151,8 +162,8 @@ a:link {
     }
 
     .energlobix__card-text {
-        font-size: calc(18.81px * 0.75);
-        line-height: calc(22.81px * 0.75);
+        font-size: calc(18.81px * 1);
+        line-height: calc(22.81px * 1);
     }
 
     .read-more-arrow2 {
@@ -183,8 +194,8 @@ a:link {
     }
 
     .energlobix__card-text {
-        font-size: calc(18.81px * 0.75);
-        line-height: calc(22.81px * 0.75);
+        font-size: calc(18.81px * 1);
+        line-height: calc(22.81px * 1);
     }
 }
 
@@ -311,14 +322,14 @@ body {
     gap: 50px;
     font-family: 'Adelle-Sans-Light', sans-serif;
     font-weight: 400;
-    color: var(--gold-color);
     font-size: 18px;
     line-height: 21.8px;
 }
 
 .energlobix__navbar ul li {
     cursor: pointer;
-    color: var(--gold-color);
+    /* color: var(--gold-color); */
+    color: rgb(184, 166, 133, 0.95);
     text-decoration: none;
 }
 
@@ -506,7 +517,17 @@ body {
     margin-top: 190px;
     font-size: 23px;
     line-height: 27.8px;
+    display: flex;
+    justify-content: center;
 }
+
+.explore-link-container {
+    border: 1px solid var(--gold-color);        
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+
 
 .hero-lower-section,
 .hero-lower-section a {
@@ -740,6 +761,12 @@ body {
     margin-top: -57px;
 }
 
+@media (max-width: 576px) {
+    .card-content {
+        padding-bottom: 10px;
+    }
+}
+
 .card-content-2 {
     max-width: 559.50px;
     height: 100%;
@@ -923,18 +950,23 @@ body {
 
 }
 
-
 .contact-form input,
 .contact-form textarea {
     width: 100%;
-    border: 1px solid var(--gold-color);
-    border-radius: 2px;
+    border: 0px;
+    border-bottom: 1px solid var(--gold-color);
+    /* border-radius: 2px; */
     color: var(--gold-color);
     font-family: 'Adelle-Sans-Regular', sans-serif;
     font-weight: 400;
     padding: 10px;
     background: none;
     margin-bottom: 20px;
+}
+
+.contact-form input:focus ,
+.contact-form textarea:focus {
+    outline: none;
 }
 
 .contact-form input::placeholder,
@@ -950,6 +982,10 @@ body {
     font-weight: 400;
     border-radius: 2px;
     padding: 10px 30px;
+}
+
+.contact-form button:hover {
+    background-color: var(--gold-color);
 }
 
 .footer-logo img {
