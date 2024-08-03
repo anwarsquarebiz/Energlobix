@@ -105,6 +105,18 @@ a:active {
     line-height: 36px;
 }
 
+.energlobix__text__reduce_by_1 {
+    font-family: 'Adelle-Sans-Light', sans-serif;
+    font-size: 27px !important;
+    line-height: 35px !important;
+}
+
+.energlobix__text__reduce_by_2 {
+    font-family: 'Adelle-Sans-Light', sans-serif;
+    font-size: 26px;
+    line-height: 34px;
+}
+
 .energlobix__text__subtitle {
     font-family: 'Adelle-Sans-Light', sans-serif;
     font-size: 22px;
@@ -165,8 +177,8 @@ a:active {
     }
 
     .energlobix__card-text {
-        font-size: calc(18.81px * 1);
-        line-height: calc(22.81px * 1);
+        font-size: calc(28px * 0.75);
+        line-height: calc(36px * 0.75);
     }
 
     .read-more-arrow2 {
@@ -197,8 +209,8 @@ a:active {
     }
 
     .energlobix__card-text {
-        font-size: calc(18.81px * 1);
-        line-height: calc(22.81px * 1);
+        font-size: calc(28px * 0.60);
+        line-height: calc(36px * 0.60);
     }
 }
 
@@ -332,7 +344,8 @@ body {
 .energlobix__navbar ul li {
     cursor: pointer;
     /* color: var(--gold-color); */
-    color: rgb(184, 166, 133, 0.95);
+    /* color: rgb(184, 166, 133, 0.95); */
+    color: white;
     text-decoration: none;
 }
 
@@ -352,7 +365,7 @@ body {
     border: none;
     font-size: 2rem;
     cursor: pointer;
-    color: var(--gold-color);
+    color: white;
 }
 
 /* Responsive styles for smaller screens */
@@ -525,8 +538,10 @@ body {
 }
 
 .hero-title {
-    font-size: 54.74px;
-    line-height: 65.688px;
+    /* font-size: 54.74px; */
+    /* line-height: 65.688px; */
+    font-size: 52.74px;
+    line-height: 63.688px;
 }
 
 .hero-subtitle {
@@ -543,7 +558,8 @@ body {
 }
 
 .explore-link-container {
-    border: 1px solid var(--gold-color);
+    /* border: 1px solid var(--gold-color); */
+    background-color: var(--gold-color);
     border-radius: 5px;
     padding: 10px 40px;
 }
@@ -568,7 +584,8 @@ body {
         /* font-size: 41.055px;
         line-height: 49.266px; */
 
-        font-size: 27.37px;
+        /* font-size: 27.37px; */
+        font-size: 25.37px;
         line-height: 32.844px;
     }
 
@@ -796,6 +813,7 @@ body {
     /* border: 0.523px solid var(--gold-color); */
     background: #F8F6F3;
     padding: 34px 72px;
+    padding-top: 44px;
     margin-top: -57px;
 
     display: flex;
@@ -1066,6 +1084,18 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.title-gold-border {
+    border: 1px solid var(--gold-color);
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+.title-blue-border {
+    border: 1px solid var(--dark-blue-color);
+    border-radius: 5px;
+    padding: 10px 40px;
 }
 
 .insights-box {
