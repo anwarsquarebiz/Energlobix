@@ -65,18 +65,21 @@
     }
 }
 
-a:link { 
-    text-decoration: none; 
-  } 
-  a:visited { 
-    text-decoration: none; 
-  } 
-  a:hover { 
-    text-decoration: none; 
-  } 
-  a:active { 
-    text-decoration: none; 
-  }
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
 
 
 .row {
@@ -381,7 +384,7 @@ body {
         position: absolute;
         top: 100%;
         left: 0;
-        background-color: #000;        
+        background-color: #000;
         /* Adjust as needed */
         padding: 1rem 0;
     }
@@ -396,7 +399,7 @@ body {
         width: 100%;
         text-align: center;
         padding: 0.5rem 0;
-        margin: 0;        
+        margin: 0;
     }
 }
 
@@ -431,11 +434,29 @@ body {
     transition: opacity 1s ease-in-out;
 }
 
+.video-bg {
+    width: 100%;
+    z-index: -10;
+    position: absolute;
+    top: 0;
+}
+
 @media (max-width: 576px) {
     .slide {
         background-size: 380% auto;
         background-repeat: no-repeat;
         background-position: top;
+    }
+
+    .video-bg {
+        width: auto;
+        height: 100%;
+        z-index: -10;
+        position: absolute;
+        top: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 
@@ -522,7 +543,7 @@ body {
 }
 
 .explore-link-container {
-    border: 1px solid var(--gold-color);        
+    border: 1px solid var(--gold-color);
     border-radius: 5px;
     padding: 10px 40px;
 }
@@ -617,23 +638,24 @@ body {
 }
 
 @media (max-width : 576px) {
-    .about-section {        
-        background-image: url('/assets/images/about_us_mobile.png');        
+    .about-section {
+        background-image: url('/assets/images/about_us_mobile.png');
     }
-    
+
     .who-we-are-about-section {
-        background-image: url('/assets/images/who-we-are-about-us-bg-mobile.png');        
+        background-image: url('/assets/images/who-we-are-about-us-bg-mobile.png');
     }
-    
+
     .what-we-do-about-section {
-        background-image: url('/assets/images/what-we-do-about-section-bg-mobile.png');        
+        background-image: url('/assets/images/what-we-do-about-section-bg-mobile.png');
     }
-    
+
     .how-we-do-it-about-section {
-        background-image: url('/assets/images/how-we-do-it-about-section-bg-mobile.png');        
+        background-image: url('/assets/images/how-we-do-it-about-section-bg-mobile.png');
     }
+
     .insights-about-section {
-        background-image: url('/assets/images/insights-about-section-bg-mobile.png');        
+        background-image: url('/assets/images/insights-about-section-bg-mobile.png');
     }
 }
 
@@ -781,7 +803,8 @@ body {
 }
 
 .divider-container {
-    margin-top: auto; /* Pushes the divider-container to the bottom */
+    margin-top: auto;
+    /* Pushes the divider-container to the bottom */
 }
 
 .black-section {
@@ -929,7 +952,7 @@ body {
 }
 
 .contact-us-section {
-    
+
     padding-top: 124.4px;
     padding-bottom: 124.4px;
 }
@@ -964,7 +987,7 @@ body {
     margin-bottom: 20px;
 }
 
-.contact-form input:focus ,
+.contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
 }
