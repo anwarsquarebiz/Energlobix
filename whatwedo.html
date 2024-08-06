@@ -16,9 +16,20 @@
 
 <body>
 
+    <!-- Loader -->
+<div id="loader" style="height: 100vh;">
+    <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="spinner-border" role="status">
+            <span class="sr-only"></span>
+        </div>
+    </div>
+</div>
+
+<div id="main-content" style="display: none;">
+
     <div class="navbar-container">
         <div class="energlobix__navbar">
-            <a href="/">
+            <a href="index.html">
                 <img src="assets/images/logo.png" alt="" class="logo" />
             </a>
             <button class="nav-toggle" aria-label="Toggle navigation">
@@ -252,6 +263,8 @@
             </div>
         </div>
     </div>
+    </div>
+
 
 
     <!-- Boostrap JS -->
@@ -261,6 +274,18 @@
 
     <!-- Javascript -->
     <script src="assets/js/script.js"></script>
+
+    <script>
+        // Wait until the entire page is loaded
+        window.addEventListener('load', function() {
+            // Hide the loader
+            document.getElementById('loader').style.display = 'none';
+            // Show the main content
+            document.getElementById('main-content').style.display = 'block';
+            // Show message in console
+            console.log('Content is loaded')
+        });
+    </script>
 </body>
 
 </html>

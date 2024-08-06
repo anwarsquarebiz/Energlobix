@@ -99,10 +99,16 @@ a:active {
     line-height: 46px;
 }
 
-.energlobix__text {
+/* .energlobix__text {
     font-family: 'Adelle-Sans-Light', sans-serif;
     font-size: 28px;
     line-height: 36px;
+} */
+
+.energlobix__text {
+    font-family: 'Adelle-Sans-Light', sans-serif;
+    font-size: 26px;
+    line-height: 34px;
 }
 
 .energlobix__text__reduce_by_1 {
@@ -113,8 +119,8 @@ a:active {
 
 .energlobix__text__reduce_by_2 {
     font-family: 'Adelle-Sans-Light', sans-serif;
-    font-size: 26px;
-    line-height: 34px;
+    font-size: 26px !important;
+    line-height: 34px !important;
 }
 
 .energlobix__text__subtitle {
@@ -448,10 +454,13 @@ body {
 }
 
 .video-bg {
-    width: 100%;
-    z-index: -10;
     position: absolute;
-    top: 0;
+    top: 50%;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    transform: translate(-50%, -50%);
+    z-index: -10;
 }
 
 @media (max-width: 576px) {
@@ -550,9 +559,11 @@ body {
 }
 
 .hero-lower-section {
-    margin-top: 190px;
-    font-size: 23px;
-    line-height: 27.8px;
+    margin-top: 60px;
+    /* font-size: 23px; */
+    /* line-height: 27.8px; */
+    font-size: 15px;
+    line-height: 17px;
     display: flex;
     justify-content: center;
 }
@@ -561,9 +572,13 @@ body {
     /* border: 1px solid var(--gold-color); */
     background-color: var(--gold-color);
     border-radius: 5px;
-    padding: 10px 40px;
+    padding: 10px 20px;
+    padding-bottom: 8px;    
 }
 
+.explore-link-container img {
+    width: 46px;
+}
 
 
 .hero-lower-section,
@@ -583,24 +598,27 @@ body {
     .hero-title {
         /* font-size: 41.055px;
         line-height: 49.266px; */
-
-        /* font-size: 27.37px; */
-        font-size: 25.37px;
+        /* font-size: 25.37px; */
+        
         line-height: 32.844px;
+        font-size: 27.37px;
     }
 
     .hero-subtitle {
         /* font-size: 27px;
         line-height: 45.75px; */
 
-        font-size: 18px;
+        font-size: 20px;
         line-height: 30.5px;
     }
 
     .hero-lower-section {
-        margin-top: 115px;
-        font-size: 17.25px;
-        line-height: 20.85px;
+        /* margin-top: 115px; */
+        margin-top: 60px;
+        /* font-size: 17.25px;
+        line-height: 20.85px; */
+        font-size: 15px;
+        line-height: 17px;
     }
 
     .single-logo-transparent {
