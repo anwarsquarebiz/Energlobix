@@ -82,3 +82,13 @@ document.addEventListener("DOMContentLoaded", function() {
         navLinks.classList.toggle('active');
     });
 });
+
+// Toggle Sub Menu
+function toggleSubmenu(id) {
+    var submenu = document.getElementById(id);
+    if (submenu.classList.contains("show")) {
+        submenu.classList.remove("show");
+    } else {
+        submenu.classList.add("show");
+    }
+}

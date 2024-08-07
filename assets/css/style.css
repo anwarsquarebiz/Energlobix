@@ -396,6 +396,24 @@ body {
     text-decoration: none;
 }
 
+.energlobix__navbar .navlinks-mobile ul li ul {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.energlobix__navbar .navlinks-mobile ul li ul.show {
+    max-height: 500px; /* Adjust this value based on the height of your submenu */
+    opacity: 1;
+    visibility: visible;
+}
+
+.link-header {
+    cursor: pointer;
+}
+
 .energlobix__navbar .navlinks-mobile .link-header {
     font-size: 32px;
     font-family: 'Adelle-Sans-Regular', sans-serif;
