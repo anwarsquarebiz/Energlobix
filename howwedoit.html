@@ -51,8 +51,10 @@
     <div class="hero-slider-section">
         
         <div class="slide active">
-            <video class="video-bg" autoplay src="https://lionzhost.com/images/how-we-do-it.mp4">
-
+            <video class="video-bg" autoplay muted loop>
+                <source src="https://magnetictron.com/static/videos/how-we-do-it.mp4" type="video/mp4">
+                <source src="https://magnetictron.com/static/videos/how-we-do-it.mov" type="video/mov">
+                Your browser does not support the video tag.
             </video>
             <div class="hero-mid-section">
                 <img class="single-logo-transparent d-none" src="assets/images/single-logo-transparent.png" alt="" />
@@ -80,8 +82,8 @@
 
         <div class="oval-container-3">
             
-            <div id="about-us" class="energlobix__text text-gold mt-3 text-center">
-                Our commitment to excellence extends <br />
+            <div id="about-us" class="container energlobix__text text-gold mt-3 text-center">
+                Our commitment to excellence extends <br class="hide-on-mobile">
                 beyond our products to the exceptional services we provide.
             </div>            
 

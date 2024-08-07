@@ -49,15 +49,17 @@
     </div>
 
     <div class="hero-slider-section">
-        <div class="slide active">
-            <video class="video-bg" autoplay src="https://lionzhost.com/images/what_we_do.mp4">
-
+        <div class="slide active" style="background-color: #00000060;">
+            <video class="video-bg" autoplay muted loop>
+                <source src="https://magnetictron.com/static/videos/what_we_do.mp4" type="video/mp4">
+                <source src="https://magnetictron.com/static/videos/what_we_do.mov" type="video/mov">
+                Your browser does not support the video tag.
             </video>
             <div class="hero-mid-section">
                 <img class="single-logo-transparent d-none" src="assets/images/single-logo-transparent.png" alt="" />
                 <div class="hero-mid-section-content">
                     <div class="hero-title">
-                        EnerGlobix fuels the <br>
+                        EnerGlobix fuels the <br class="hide-on-mobile">
                         global energy landscape
                     </div>
                 </div>
@@ -83,14 +85,14 @@
                 Our Commodities
             </div>
 
-            <div class="energlobix__text mt-3 text-center">
-                EnerGlobix provide a wide array of energy & commodity <br />
-                products, each sourced to meet the highest standards <br />
+            <div class="container energlobix__text mt-3 text-center">
+                EnerGlobix provide a wide array of energy & commodity <br class="hide-on-mobile">
+                products, each sourced to meet the highest standards <br class="hide-on-mobile">
                 of performance, sustainability and reliability.
             </div>            
 
             <div class="row about-us">
-                <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
+                <div id="TC1-Aviation-Fuel" class="col-lg-4 col-md-4 col-sm-12 mt-3">
                     <div class="about-us-card">
                         <div class="card-image-container text-center">
                             <img class="card-image" src="assets/images/TC1-aviation-fuel.jpg" alt="" />
@@ -114,7 +116,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
+                <div id="Diesel" class="col-lg-4 col-md-4 col-sm-12 mt-3">
                     <div class="about-us-card">
                         <div class="card-image-container text-center">
                             <img class="card-image" src="assets/images/Diesel.jpg" alt="" />
@@ -136,7 +138,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
+                <div id="Petrol" class="col-lg-4 col-md-4 col-sm-12 mt-3">
                     <div class="about-us-card">
                         <div class="card-image-container text-center">
                             <img class="card-image" src="assets/images/Petrol.jpg" alt="" />
@@ -160,7 +162,7 @@
                 </div>
             </div>
 
-            <div class="row about-us">
+            <div id="Crude" class="row about-us">
                 <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
                     <div class="about-us-card">
                         <div class="card-image-container text-center">
@@ -183,7 +185,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
+                <div id="Coal" class="col-lg-4 col-md-4 col-sm-12 mt-3">
                     <div class="about-us-card">
                         <div class="card-image-container text-center">
                             <img class="card-image" src="assets/images/Coal.jpg" alt="" />
@@ -205,7 +207,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
+                <div id="Fertilizer" class="col-lg-4 col-md-4 col-sm-12 mt-3">
                     <div class="about-us-card">
                         <div class="card-image-container text-center">
                             <img class="card-image" src="assets/images/Fertilizer.jpg" alt="" />
