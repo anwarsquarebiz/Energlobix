@@ -356,13 +356,66 @@ body {
     text-decoration: none;
 }
 
-.energlobix__navbar ul li.active {
+.energlobix__navbar .navlinks ul li.active {
     color: white;
     border-bottom: 0.5px solid #fff;
     padding-bottom: 3px;
 }
 
 .energlobix__navbar ul li:hover {
+    color: #fff;
+}
+
+
+.navlinks-mobile {
+    display: flex;
+    align-items: center;
+}
+
+.navlinks-mobile {
+    display: none;
+}
+
+.energlobix__navbar .navlinks-mobile ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+    font-family: 'Adelle-Sans-Light', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.8px;
+}
+
+.energlobix__navbar .navlinks-mobile ul li {
+    cursor: pointer;
+    /* color: var(--gold-color); */
+    /* color: rgb(184, 166, 133, 0.95); */
+    color: white;
+    text-decoration: none;
+}
+
+.energlobix__navbar .navlinks-mobile .link-header {
+    font-size: 32px;
+    font-family: 'Adelle-Sans-Regular', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.energlobix__navbar .navlinks-mobile .link-header img {
+    height: 20px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+}
+
+.energlobix__navbar .navlinks-mobile ul li.active {
+    color: white;
+    /* border-bottom: 0.5px solid #fff; */
+    padding-bottom: 3px;
+}
+
+.energlobix__navbar .navlinks-mobile ul li:hover {
     color: #fff;
 }
 
@@ -404,7 +457,7 @@ body {
         position: absolute;
         top: 100%;
         left: 0;
-        background-color: #000;
+        background-color: #2b2e34;
         /* Adjust as needed */
         padding: 1rem 0;
     }
@@ -421,6 +474,41 @@ body {
         padding: 0.5rem 0;
         margin: 0;
     }
+
+
+    /*  */
+    .navlinks-mobile {
+        display: none;
+        width: 100%;
+    }
+
+    .navlinks-mobile.active {
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        /* background-color: #2b2e34; */
+        background-color: #231F20;
+        /* Adjust as needed */
+        padding: 1rem 0;
+        border: none;
+    }
+
+    .energlobix__navbar .navlinks-mobile ul {
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+    }
+
+    .energlobix__navbar .navlinks-mobile ul li {
+        width: 100%;
+        text-align: center;
+        padding: 0.5rem 0;
+        margin: 0;
+    }
 }
 
 /* Optional: additional styles for very small screens */
@@ -429,8 +517,9 @@ body {
         padding: 2rem 2rem;
     }
 
-    .energlobix__navbar ul li {
-        padding: 0.75rem 0;
+    .energlobix__navbar .navlinks-mobile ul li {
+        padding: 5px 0;
+        color: var(--gold-color);
     }
 }
 
