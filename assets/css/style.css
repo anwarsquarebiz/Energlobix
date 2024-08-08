@@ -60,8 +60,8 @@
     }
 
     .container {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 
@@ -212,8 +212,11 @@ a:active {
 /* Styles for mobiles (50% of the original size) */
 @media (max-width: 576px) {
     .energlobix__title {
-        font-size: calc(38px * 0.60);
-        line-height: calc(46px * 0.60);
+        /* font-size: calc(38px * 0.60);
+        line-height: calc(46px * 0.60); */
+
+        font-size: calc(34.575px * 0.75);
+        line-height: calc(41.89px * 0.75);
     }
 
     .energlobix__text {
