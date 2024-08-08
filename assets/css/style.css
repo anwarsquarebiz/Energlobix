@@ -1129,9 +1129,11 @@ body {
 @media (max-width : 576px) {
 
     .contact-information {
-
         margin-bottom: 50px;
+    }
 
+    .contact-details {
+        margin-top: 40.4px;
     }
 
 }
