@@ -415,10 +415,10 @@ body {
 }
 
 .energlobix__navbar .navlinks-mobile .link-header {
-    font-size: 28px;
+    font-size: 26px;
     font-family: 'Adelle-Sans-Regular', sans-serif;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .energlobix__navbar .navlinks-mobile .link-header img {
