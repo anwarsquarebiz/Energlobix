@@ -108,8 +108,8 @@ a:active {
 .energlobix__text {
     /* font-family: 'Adelle-Sans-Light', sans-serif; */
     font-family: 'Adelle-Sans-Regular', sans-serif;
-    font-size: 26px;
-    line-height: 34px;
+    font-size: 22px;
+    line-height: 30px;
 }
 
 .energlobix__text_2 {
@@ -545,7 +545,7 @@ body {
         top: 100%;
         left: 0;
         /* background-color: #2b2e34; */
-        background-color: #231F20;
+        background-color: var(--dark-blue-color);
         /* Adjust as needed */
         padding: 1rem 0;
         border: none;
@@ -716,7 +716,7 @@ body {
     /* border: 1px solid var(--gold-color); */
     background-color: var(--gold-color);
     border-radius: 5px;
-    padding: 8px 40px;
+    padding: 10px 40px;
     padding-bottom: 6px;    
 }
 
