@@ -197,8 +197,8 @@ a:active {
     }
 
     .energlobix__text_2 {
-        font-size: calc(22px * 0.75);
-        line-height: calc(32px * 0.75);
+        font-size: calc(22px * 1);
+        line-height: calc(32px * 1);
     }
 
     .energlobix__links {
@@ -237,8 +237,8 @@ a:active {
     }
 
     .energlobix__text_2 {
-        font-size: calc(22px * 0.60);
-        line-height: calc(32px * 0.60);
+        font-size: calc(22px * 0.75);
+        line-height: calc(32px * 0.75);
     }
 
     .energlobix__links {
