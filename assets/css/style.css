@@ -65,6 +65,8 @@
     }
 }
 
+
+
 a:link {
     text-decoration: none;
 }
@@ -333,7 +335,7 @@ body {
 @media (min-width: 1400px) {
     .navbar-container {
         background: #000 !important;
-        max-width: 1320px;
+        max-width: 1220px;
         width: 100%;
         margin: 0 auto;
         padding: 0 15px;
