@@ -1025,6 +1025,7 @@ body {
 .how-box-bg1 {
     background-image: url('/Energlobix/assets/images/shutterstock_1936256839.jpg');
     background-size: cover;
+    background-position: center;
     min-width: 100%;
     min-height: 543px;
 }
@@ -1032,6 +1033,7 @@ body {
 .how-box-bg2 {
     background-image: url('/Energlobix/assets/images/shutterstock_1945399948.jpg');
     background-size: cover;
+    background-position: center;
     min-width: 100%;
     min-height: 543px;
 }
@@ -1039,6 +1041,7 @@ body {
 .how-box-bg3 {
     background-image: url('/Energlobix/assets/images/shutterstock_2346258639.jpg');
     background-size: cover;
+    background-position: center;
     min-width: 100%;
     min-height: 543px;
 }
