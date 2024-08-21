@@ -1274,7 +1274,7 @@ body {
     justify-content: center;
 }
 
-@media (max-width: 1522px) {
+@media (max-width: 1550px) {
     .how-we-do-it-box {
         padding-left: 80px;
         padding-right: 80px;
