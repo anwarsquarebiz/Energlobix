@@ -186,6 +186,110 @@ a:active {
     line-height: 22.81px;
 }
 
+/* Styles for apple laptops (75% of the original size) */
+@media (max-width: 1550px) {
+    .energlobix__text {
+        font-family: 'Adelle-Sans-Regular', sans-serif;
+        font-size: calc(22px * 0.75);
+        line-height: calc(30px * 0.75);
+    }
+    
+    .energlobix__text_2 {
+        font-family: 'Adelle-Sans-Regular', sans-serif;
+        font-size: calc(22px * 0.75);
+        line-height: calc(32px * 0.75);
+    }
+    
+    .energlobix__text__subtitle {
+        font-family: 'Adelle-Sans-Regular', sans-serif;
+        font-size: calc(22px * 0.75);
+        line-height: calc(30px * 0.75);
+    }
+    
+    .energlobix__point {
+        font-family: 'Adelle-Sans-Light', sans-serif;
+        font-size: calc(17px * 0.75);
+        line-height: calc(20.6px * 0.75);
+    }
+    
+    .energlobix__links {
+        font-family: 'Adelle-Sans-Bold', sans-serif;
+        font-size: calc(18px * 0.75);
+        line-height: calc(21.6px * 0.75);
+        text-decoration: none;
+    }
+    
+    .energlobix__card-title {
+        font-family: 'Adelle-Sans-Bold', sans-serif;
+        font-size: calc(34.575px * 0.75);
+        line-height: calc(41.89px * 0.75);
+    }
+    
+    .energlobix__card-title-2 {
+        font-family: 'Adelle-Sans-Bold', sans-serif;
+        font-size: calc(27px * 0.75);
+        line-height: calc(32.4px * 0.75);
+    }
+    
+    .energlobix__card-text {
+        font-family: 'Adelle-Sans-Regular', sans-serif;
+        font-size: calc(18.81px * 0.75);
+        line-height: calc(22.81px * 0.75);
+    }
+}
+
+/* Styles for smaller apple laptops (75% of the original size) */
+@media (max-width: 1440px) {
+    .energlobix__text {
+        font-family: 'Adelle-Sans-Regular', sans-serif;
+        font-size: calc(22px * 0.75);
+        line-height: calc(30px * 0.75);
+    }
+    
+    .energlobix__text_2 {
+        font-family: 'Adelle-Sans-Regular', sans-serif;
+        font-size: calc(22px * 0.75);
+        line-height: calc(32px * 0.75);
+    }
+    
+    .energlobix__text__subtitle {
+        font-family: 'Adelle-Sans-Regular', sans-serif;
+        font-size: calc(22px * 0.75);
+        line-height: calc(30px * 0.75);
+    }
+    
+    .energlobix__point {
+        font-family: 'Adelle-Sans-Light', sans-serif;
+        font-size: calc(17px * 0.75);
+        line-height: calc(20.6px * 0.75);
+    }
+    
+    .energlobix__links {
+        font-family: 'Adelle-Sans-Bold', sans-serif;
+        font-size: calc(18px * 0.75);
+        line-height: calc(21.6px * 0.75);
+        text-decoration: none;
+    }
+    
+    .energlobix__card-title {
+        font-family: 'Adelle-Sans-Bold', sans-serif;
+        font-size: calc(34.575px * 0.75);
+        line-height: calc(41.89px * 0.75);
+    }
+    
+    .energlobix__card-title-2 {
+        font-family: 'Adelle-Sans-Bold', sans-serif;
+        font-size: calc(27px * 0.75);
+        line-height: calc(32.4px * 0.75);
+    }
+    
+    .energlobix__card-text {
+        font-family: 'Adelle-Sans-Regular', sans-serif;
+        font-size: calc(18.81px * 0.75);
+        line-height: calc(22.81px * 0.75);
+    }
+}
+
 /* Styles for iPads (75% of the original size) */
 @media (max-width: 1024px) {
     .energlobix__title {
@@ -1415,7 +1519,6 @@ body {
     justify-content: center;
     text-align: center;
 }
-
 
 
 @media (max-width: 557px) {
